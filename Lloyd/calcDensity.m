@@ -23,7 +23,6 @@ maxDensity = 10;
 maxRadius = 20;
 
 COMs = zeros(clusterCount,2);
-D = randi([0,3], 100, 100);
 
 pts = linspace(0, s, s);
 for i = 1:clusterCount
